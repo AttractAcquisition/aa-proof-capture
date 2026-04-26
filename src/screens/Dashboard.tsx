@@ -162,7 +162,7 @@ const Dashboard = () => {
       </section>
 
       {/* Recent uploads */}
-      <section className="px-5 mt-8 pb-safe pb-6 flex-1">
+      <section className="px-5 mt-8 pb-8">
         <p className="font-mono-brand text-[10px] text-muted-foreground uppercase tracking-[0.18em]">
           Recent uploads
         </p>
