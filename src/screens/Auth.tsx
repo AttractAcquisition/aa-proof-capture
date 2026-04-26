@@ -40,18 +40,18 @@ const Auth = () => {
   };
 
   return (
-    <main className="relative min-h-[100dvh] flex flex-col bg-background text-foreground overflow-hidden">
+    <main className="relative min-h-[100dvh] flex flex-col bg-background text-foreground overflow-hidden pt-safe">
       {/* Top brand section */}
-      <section className="relative flex-[0_0_40%] flex flex-col items-center justify-center pt-safe radial-glow">
+      <section className="relative flex flex-col items-center justify-center radial-glow pt-10 pb-8 min-h-[34vh]">
         <h1 className="font-display text-[64px] leading-none text-accent">AA</h1>
-        <p className="font-display text-[22px] leading-none text-foreground mt-2">Proof Capture</p>
-        <p className="font-mono-brand text-[10px] text-muted-foreground uppercase mt-3 tracking-[0.18em]">
+        <p className="font-display text-[22px] leading-none text-foreground mt-3">Proof Capture</p>
+        <p className="font-mono-brand text-[10px] text-muted-foreground uppercase mt-4 tracking-[0.18em]">
           Attract Acquisition
         </p>
       </section>
 
       {/* Bottom card */}
-      <section className="flex-1 bg-surface rounded-t-[32px] px-6 pt-8 pb-safe shadow-[0_-8px_40px_rgba(0,0,0,0.4)]">
+      <section className="flex-1 flex flex-col justify-center bg-surface rounded-t-[32px] px-6 pt-10 pb-10 pb-safe shadow-[0_-8px_40px_rgba(0,0,0,0.4)]">
         <div className="pb-6">
           <h2 className="font-display text-2xl text-foreground">Welcome back</h2>
           <p className="font-sans text-sm text-secondary-foreground mt-1">

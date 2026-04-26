@@ -73,9 +73,9 @@ const Dashboard = () => {
   };
 
   return (
-    <main className="min-h-[100dvh] bg-background text-foreground flex flex-col">
+    <main className="min-h-[100dvh] bg-background text-foreground flex flex-col pt-safe pb-safe">
       {/* Header */}
-      <header className="pt-safe px-5 pt-4 pb-2 flex items-start justify-between">
+      <header className="px-5 pt-6 pb-2 flex items-start justify-between">
         <div>
           <p className="font-sans text-[13px] text-secondary-foreground">{greeting()}</p>
           <h1 className="font-display text-[20px] leading-tight text-foreground mt-0.5 capitalize">
@@ -92,7 +92,7 @@ const Dashboard = () => {
       </header>
 
       {/* Capture hero card */}
-      <section className="px-5 mt-4">
+      <section className="px-5 mt-6 flex-1 flex flex-col justify-center">
         <div className="bg-surface border border-accent/15 rounded-[20px] p-6">
           <p className="font-mono-brand text-[10px] text-muted-foreground uppercase tracking-[0.18em]">
             Proof Capture
@@ -162,7 +162,7 @@ const Dashboard = () => {
       </section>
 
       {/* Recent uploads */}
-      <section className="px-5 mt-8 pb-safe pb-6 flex-1">
+      <section className="px-5 mt-8 pb-8">
         <p className="font-mono-brand text-[10px] text-muted-foreground uppercase tracking-[0.18em]">
           Recent uploads
         </p>
