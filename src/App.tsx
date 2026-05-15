@@ -8,12 +8,14 @@ import { AuthProvider } from "./context/AuthContext.tsx";
 const App = () => (
   <AuthProvider>
     <BrowserRouter>
+      <div className="page-fade">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      </div>
     </BrowserRouter>
   </AuthProvider>
 );
